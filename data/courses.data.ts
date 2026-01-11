@@ -1,0 +1,246 @@
+import machineLearningImg from "@/public/Machine_Learning_Engineer.webp";
+import frontendImg from "@/public/Become_a_Frontend_Developer.webp";
+import pythonImg from "@/public/phyton.webp";
+
+export const coursesData = [
+    {
+      id: 1,
+      image: machineLearningImg,
+      label: "BECOME AN",
+      title: "AI & Machine Learning Engineer",
+      milestones: 17,
+      courses: 12,
+      description:
+        "Step-by-step roadmap to become an AI Engineer & Machine Learning Engineer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in this fast growing field.",
+      jobRoles: ["Machine Learning Engineer", "AI Engineer", "AI Architect"],
+      bgGradient: "from-purple-900/90 to-blue-900/90",
+    },
+    {
+      id: 2,
+      image: frontendImg,
+      label: "BECOME A",
+      title: "Fullstack Web Developer",
+      milestones: 13,
+      courses: 9,
+      description:
+        "This is the roadmap to become a top level Fullstack Developer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in one of the highest demand industries.",
+      jobRoles: ["Fullstack Developer", "Full Stack Engineer", "Web Developer"],
+      bgGradient: "from-blue-500/90 to-cyan-400/90",
+    },
+    {
+      id: 3,
+      image: pythonImg,
+      label: "BECOME AN",
+      title: "Ethical Hacker & Cybersecurity Expert",
+      milestones: 15,
+      courses: 12,
+      description:
+        "Master Ethical Hacking & Cybersecurity with a curated roadmap of courses, projects, and security certifications. Learn penetration testing, network defense, threat analysis & security architecture. Industry-certified path from basics to advanced exploits.",
+      jobRoles: [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Penetration Tester",
+      ],
+      bgGradient: "from-purple-900/90 to-pink-900/90",
+    },
+    {
+      id: 1,
+      image: machineLearningImg,
+      label: "BECOME AN",
+      title: "AI & Machine Learning Engineer",
+      milestones: 17,
+      courses: 12,
+      description:
+        "Step-by-step roadmap to become an AI Engineer & Machine Learning Engineer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in this fast growing field.",
+      jobRoles: ["Machine Learning Engineer", "AI Engineer", "AI Architect"],
+      bgGradient: "from-purple-900/90 to-blue-900/90",
+    },
+    {
+      id: 2,
+      image: frontendImg,
+      label: "BECOME A",
+      title: "Fullstack Web Developer",
+      milestones: 13,
+      courses: 9,
+      description:
+        "This is the roadmap to become a top level Fullstack Developer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in one of the highest demand industries.",
+      jobRoles: ["Fullstack Developer", "Full Stack Engineer", "Web Developer"],
+      bgGradient: "from-blue-500/90 to-cyan-400/90",
+    },
+    {
+      id: 3,
+      image: pythonImg,
+      label: "BECOME AN",
+      title: "Ethical Hacker & Cybersecurity Expert",
+      milestones: 15,
+      courses: 12,
+      description:
+        "Master Ethical Hacking & Cybersecurity with a curated roadmap of courses, projects, and security certifications. Learn penetration testing, network defense, threat analysis & security architecture. Industry-certified path from basics to advanced exploits.",
+      jobRoles: [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Penetration Tester",
+      ],
+      bgGradient: "from-purple-900/90 to-pink-900/90",
+    },
+    {
+      id: 4,
+      image: machineLearningImg,
+      label: "BECOME AN",
+      title: "AI & Machine Learning Engineer",
+      milestones: 17,
+      courses: 12,
+      description:
+        "Step-by-step roadmap to become an AI Engineer & Machine Learning Engineer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in this fast growing field.",
+      jobRoles: ["Machine Learning Engineer", "AI Engineer", "AI Architect"],
+      bgGradient: "from-purple-900/90 to-blue-900/90",
+    },
+    {
+      id: 5,
+      image: frontendImg,
+      label: "BECOME A",
+      title: "Fullstack Web Developer",
+      milestones: 13,
+      courses: 9,
+      description:
+        "This is the roadmap to become a top level Fullstack Developer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in one of the highest demand industries.",
+      jobRoles: ["Fullstack Developer", "Full Stack Engineer", "Web Developer"],
+      bgGradient: "from-blue-500/90 to-cyan-400/90",
+    },
+    {
+      id: 6,
+      image: pythonImg,
+      label: "BECOME AN",
+      title: "Ethical Hacker & Cybersecurity Expert",
+      milestones: 15,
+      courses: 12,
+      description:
+        "Master Ethical Hacking & Cybersecurity with a curated roadmap of courses, projects, and security certifications. Learn penetration testing, network defense, threat analysis & security architecture. Industry-certified path from basics to advanced exploits.",
+      jobRoles: [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Penetration Tester",
+      ],
+      bgGradient: "from-purple-900/90 to-pink-900/90",
+    },
+    {
+      id: 7,
+      image: machineLearningImg,
+      label: "BECOME AN",
+      title: "AI & Machine Learning Engineer",
+      milestones: 17,
+      courses: 12,
+      description:
+        "Step-by-step roadmap to become an AI Engineer & Machine Learning Engineer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in this fast growing field.",
+      jobRoles: ["Machine Learning Engineer", "AI Engineer", "AI Architect"],
+      bgGradient: "from-purple-900/90 to-blue-900/90",
+    },
+    {
+      id: 8,
+      image: frontendImg,
+      label: "BECOME A",
+      title: "Fullstack Web Developer",
+      milestones: 13,
+      courses: 9,
+      description:
+        "This is the roadmap to become a top level Fullstack Developer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in one of the highest demand industries.",
+      jobRoles: ["Fullstack Developer", "Full Stack Engineer", "Web Developer"],
+      bgGradient: "from-blue-500/90 to-cyan-400/90",
+    },
+    {
+      id: 9,
+      image: pythonImg,
+      label: "BECOME AN",
+      title: "Ethical Hacker & Cybersecurity Expert",
+      milestones: 15,
+      courses: 12,
+      description:
+        "Master Ethical Hacking & Cybersecurity with a curated roadmap of courses, projects, and security certifications. Learn penetration testing, network defense, threat analysis & security architecture. Industry-certified path from basics to advanced exploits.",
+      jobRoles: [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Penetration Tester",
+      ],
+      bgGradient: "from-purple-900/90 to-pink-900/90",
+    },
+    {
+      id: 10,
+      image: machineLearningImg,
+      label: "BECOME AN",
+      title: "AI & Machine Learning Engineer",
+      milestones: 17,
+      courses: 12,
+      description:
+        "Step-by-step roadmap to become an AI Engineer & Machine Learning Engineer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in this fast growing field.",
+      jobRoles: ["Machine Learning Engineer", "AI Engineer", "AI Architect"],
+      bgGradient: "from-purple-900/90 to-blue-900/90",
+    },
+    {
+      id: 11,
+      image: frontendImg,
+      label: "BECOME A",
+      title: "Fullstack Web Developer",
+      milestones: 13,
+      courses: 9,
+      description:
+        "This is the roadmap to become a top level Fullstack Developer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in one of the highest demand industries.",
+      jobRoles: ["Fullstack Developer", "Full Stack Engineer", "Web Developer"],
+      bgGradient: "from-blue-500/90 to-cyan-400/90",
+    },
+    {
+      id: 12,
+      image: pythonImg,
+      label: "BECOME AN",
+      title: "Ethical Hacker & Cybersecurity Expert",
+      milestones: 15,
+      courses: 12,
+      description:
+        "Master Ethical Hacking & Cybersecurity with a curated roadmap of courses, projects, and security certifications. Learn penetration testing, network defense, threat analysis & security architecture. Industry-certified path from basics to advanced exploits.",
+      jobRoles: [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Penetration Tester",
+      ],
+      bgGradient: "from-purple-900/90 to-pink-900/90",
+    },
+    {
+      id: 13,
+      image: machineLearningImg,
+      label: "BECOME AN",
+      title: "AI & Machine Learning Engineer",
+      milestones: 17,
+      courses: 12,
+      description:
+        "Step-by-step roadmap to become an AI Engineer & Machine Learning Engineer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in this fast growing field.",
+      jobRoles: ["Machine Learning Engineer", "AI Engineer", "AI Architect"],
+      bgGradient: "from-purple-900/90 to-blue-900/90",
+    },
+    {
+      id: 14,
+      image: frontendImg,
+      label: "BECOME A",
+      title: "Fullstack Web Developer",
+      milestones: 13,
+      courses: 9,
+      description:
+        "This is the roadmap to become a top level Fullstack Developer and get hired. You will get a curated curriculum of courses, projects, and action items that will give you the skills, portfolio and experience to excel in one of the highest demand industries.",
+      jobRoles: ["Fullstack Developer", "Full Stack Engineer", "Web Developer"],
+      bgGradient: "from-blue-500/90 to-cyan-400/90",
+    },
+    {
+      id: 15,
+      image: pythonImg,
+      label: "BECOME AN",
+      title: "Ethical Hacker & Cybersecurity Expert",
+      milestones: 15,
+      courses: 12,
+      description:
+        "Master Ethical Hacking & Cybersecurity with a curated roadmap of courses, projects, and security certifications. Learn penetration testing, network defense, threat analysis & security architecture. Industry-certified path from basics to advanced exploits.",
+      jobRoles: [
+        "Cybersecurity Analyst",
+        "Information Security Analyst",
+        "Penetration Tester",
+      ],
+      bgGradient: "from-purple-900/90 to-pink-900/90",
+    },
+  ];
