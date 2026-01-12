@@ -22,8 +22,8 @@ export default function Founder() {
     }, [quotes.length]);
 
   return (
-    <section className="bg-[#4c0ffb] text-white pb-16 ">
-      <div className="container mx-auto px-6 py-16 lg:py-24">
+    <section className="bg-[#4c0ffb] text-white pb-16 max">
+      <div className="max-w-layout mx-auto px-6 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Image and Button */}
           <div className="flex flex-col items-center space-y-6 h-full">
